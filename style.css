@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.topBar {
+    display: flex;
+    padding: 10px;
+    padding-left: 80px;
+    background: rgb(22, 19, 191);
+    color: white;
+    list-style: none;
+
+    gap: 100px;
+}
