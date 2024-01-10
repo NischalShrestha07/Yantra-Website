@@ -58,17 +58,23 @@ ul {
 
 .content1 {
     display: flex;
+
 }
 
+
 .content1 p {
-    /* margin: 50px; */
-    padding: 30px;
+    font-size: 38px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background: url('images/piece.png')no-repeat;
+    background-position: bottom;
+    background-size: 50%;
 }
 
 .content1 img {
-    width: 600px;
+    width: 47vw;
+
+
 }
