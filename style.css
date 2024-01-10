@@ -78,3 +78,103 @@ ul {
 
 
 }
+
+.boxes {
+    margin-top: 20vw;
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center; */
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    border: 1px solid black;
+    padding: 12px;
+    color: white;
+
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: blue;
+}
+
+.box1 p {
+    font-family: cursive;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.box2 {
+    padding-top: 14vh;
+    background: blue;
+}
+
+.box2 h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.box2 p {
+    margin-top: 18px;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+.box4 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: blue;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    background: rgb(245, 161, 6);
+    padding: 15px;
+
+}
+
+.box3 h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.box3 p {
+    margin-top: 18px;
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.box4 h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.box4 p {
+    margin-top: 18px;
+    font-size: 30px;
+    font-family: cursive;
+
+}
