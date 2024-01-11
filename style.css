@@ -318,7 +318,7 @@
 }
 
 
-button {
+.btn1 {
     border: 2px solid black;
     color: black;
     padding: 20px;
@@ -326,14 +326,25 @@ button {
     border-radius: 30px;
     font-family: cursive;
     font-family: cursive;
+    box-shadow: 5px 5px 5px black;
+    background: linear-gradient(60deg, greenyellow, orangered);
+    cursor: pointer;
+}
 
+.btn1:hover {
+    background: greenyellow;
+    color: black;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.011);
 }
 
 #achievement {
     margin-top: 80px;
     height: 70vh;
     display: flex;
-    background: green;
+    background: url('images/background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
 
     align-items: center;
     justify-content: center;
@@ -348,4 +359,6 @@ button {
 
 #achievement img {
     height: 35vh;
+    border: 3.45px solid black;
+    box-shadow: 5px 5px 5px black;
 }
