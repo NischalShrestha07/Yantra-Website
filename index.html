@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yantra Website</title>
     <link rel="stylesheet" href="style.css">
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -19,15 +20,15 @@
         <img src="images/logo yan.png" alt="logo">
         <ul>
 
-            <li><a href="/">HOME</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">ACHIEVEMENTS</a></li>
-            <li><a href="#">APPROACH</a></li>
-            <li><a href="#">OUR BLOG</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#container">HOME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#projects">OUR PROJECTS</a></li>
+            <li><a href="#achievement">ACHIEVEMENTS</a></li>
+            <li><a href="#approach">APPROACH</a></li>
+            <li><a href="#end">CONTACT US</a></li>
         </ul>
     </div>
-    <div class="container">
+    <div id="container">
         <h1>WELCOME TO YANTRA SOLUTION:</h1>
         <div class="content1">
             <p>As a System Integrator, Yantra Solution is dedicated to enhancing the operational efficiency of our
@@ -91,7 +92,7 @@
             consulting. It plays a pivotal role in <br> educating and guiding individuals and organizations to meet
             international <br> and
             national information security standards.</p>
-        <button class="btn1">View All Projects</button>
+        <button class="btn1"><a href="projects.html">View All Projects</a></button>
     </div>
     <div id="achievement">
         <div class="para">
@@ -143,7 +144,7 @@
     <div class="border3">
         <h1>Need Help? We are excited about being able to help you.</h1>
     </div>
-    <div class="end">
+    <div id="end">
         <div class="lastOne">
             <div class="img">
                 <img src="images/logo-copy.png" alt="logo-sopy">

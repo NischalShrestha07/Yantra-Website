@@ -52,7 +52,7 @@
     margin: 0;
 }
 
-.container {
+#container {
     height: 100vh;
     margin: 30px 10px;
     /* color: red; */
@@ -62,7 +62,7 @@
 
 }
 
-.container h1 {
+#container h1 {
     border: 1px solid rgb(201, 195, 186);
     background: rgb(197, 161, 167);
     padding: 13px;
@@ -329,6 +329,15 @@
     box-shadow: 5px 5px 5px black;
     background: linear-gradient(60deg, greenyellow, orangered);
     cursor: pointer;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+
 }
 
 .btn1:hover {
