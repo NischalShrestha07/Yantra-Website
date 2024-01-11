@@ -345,7 +345,7 @@
     background: url('images/background.jpg')no-repeat;
     background-position: center;
     background-size: cover;
-
+    background-size: cover;
     align-items: center;
     justify-content: center;
 }
@@ -355,10 +355,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+    font-family: cursive;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.para span {
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 17px;
+    padding: 15px;
+    background: linear-gradient(45deg, grey, blue, orangered, black);
+    color: white;
+}
+
+
+
+.para p {
+    /* padding: 30px; */
+    /* margin: 30px; */
+    text-align: center;
+}
+
+.para h1 {
+    margin-bottom: 40px;
+    color: red;
+    font-family: cursive;
+    font-size: 45px;
+    text-align: center;
+
+
 }
 
 #achievement img {
-    height: 35vh;
+    height: 380px;
     border: 3.45px solid black;
     box-shadow: 5px 5px 5px black;
+}
+
+.border1 {
+    background: linear-gradient(45deg, red, blue, skyblue);
+    height: 50px;
+    padding: 15px;
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+
 }
