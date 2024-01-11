@@ -17,6 +17,7 @@
 
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,7 +28,7 @@
 }
 
 .navbar img {
-    padding: 15px;
+    /* padding: 15px; */
     width: 300px;
 }
 
@@ -38,14 +39,17 @@
     font-size: 30px;
 }
 
-.navbar ul li {
+.navbar ul li a {
+    text-decoration: none;
     font-family: cursive;
 
 }
 
-.navbar ul li:hover {
+.navbar ul li a:hover {
     border-bottom: 5px solid black;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    top: 0;
+    margin: 0;
 }
 
 .container {
@@ -75,7 +79,6 @@
 
 }
 
-
 .content1 p {
     font-size: 38px;
     padding: 100px;
@@ -91,7 +94,6 @@
 
 .content1 img {
     width: 47vw;
-
 
 }
 
@@ -231,4 +233,96 @@
     font-size: 50px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
+}
+
+#services {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    background: linear-gradient(145deg, blue, orangered, green);
+    color: white;
+}
+
+#services h1 {
+    border-radius: 50px;
+    border: 4px solid black;
+    padding: 25px;
+    background: greenyellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+
+}
+
+#services h1:hover {
+    background: red;
+    color: white;
+    box-shadow: 3px 5px 5px black;
+    transition: all ease-in;
+}
+
+#services p {
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+#services span {
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    background: red;
+    /* background: linear-gradient(145deg, blue, orangered, green); */
+    color: white;
+}
+
+#projects h1 {
+    border-radius: 50px;
+    border: 4px solid black;
+    padding: 25px;
+    background: blue;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 50px;
+
+}
+
+#projects p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 15vh;
+}
+
+button {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    font-size: 60px;
+    border-radius: 30px;
+    font-family: cursive;
+    font-family: cursive;
+
 }
