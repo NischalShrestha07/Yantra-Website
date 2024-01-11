@@ -282,6 +282,7 @@
 }
 
 #projects {
+    height: 100vh;
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -309,12 +310,13 @@
 }
 
 #projects p {
-    margin-top: 100px;
+    margin-top: 82px;
     text-align: center;
     font-size: 30px;
     font-family: cursive;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
+
 
 button {
     border: 2px solid black;
@@ -325,4 +327,25 @@ button {
     font-family: cursive;
     font-family: cursive;
 
+}
+
+#achievement {
+    margin-top: 80px;
+    height: 70vh;
+    display: flex;
+    background: green;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#achievement img {
+    height: 35vh;
 }
