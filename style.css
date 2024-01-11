@@ -22,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 10px;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -31,10 +31,21 @@
     width: 300px;
 }
 
-ul {
+.navbar ul {
     display: flex;
     gap: 40px;
     list-style: none;
+    font-size: 30px;
+}
+
+.navbar ul li {
+    font-family: cursive;
+
+}
+
+.navbar ul li:hover {
+    border-bottom: 5px solid black;
+    margin-top: 5px;
 }
 
 .container {
@@ -50,10 +61,13 @@ ul {
 .container h1 {
     border: 1px solid rgb(201, 195, 186);
     background: rgb(197, 161, 167);
-    padding: 15px;
+    padding: 13px;
     border-radius: 50px;
     display: inline;
     color: rgb(251, 8, 4);
+    font-family: 'Bhalo Bhai', cursive;
+    font-size: 40px;
+    margin-left: 4vw;
 }
 
 .content1 {
@@ -68,9 +82,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('images/piece.png')no-repeat;
+    background: url(images/piece.png)no-repeat;
     background-position: bottom;
     background-size: 50%;
+    font-family: cursive;
+    font-style: oblique;
 }
 
 .content1 img {
@@ -181,6 +197,38 @@ ul {
 
 .man {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .man  */
+.man h5 {
+    padding: 30px;
+    gap: 50px;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 90px;
+}
+
+.man h5 p {
+    color: orangered;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.border h1 {
+    /* border-bottom: 50px solid orangered; */
+    background: linear-gradient(45deg, red, blue, green, orangered, yellow);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: cursive;
+    font-size: 50px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
