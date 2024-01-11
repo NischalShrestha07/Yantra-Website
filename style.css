@@ -397,12 +397,19 @@
     box-shadow: 5px 5px 5px black;
 }
 
-.border1 {
+.border1 h1 {
     background: linear-gradient(45deg, red, blue, skyblue);
-    height: 50px;
-    padding: 15px;
-    font-size: 30px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
     font-family: cursive;
     font-style: italic;
+    color: white;
 
+}
+
+#approach {
+    /* display: flex;
+    flex-direction: column; */
 }
