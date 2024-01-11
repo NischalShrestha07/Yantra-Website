@@ -459,5 +459,65 @@
 .container1 p {
     font-family: cursive;
     margin-top: 40px;
+    font-size: 25px;
+
+}
+
+.det3 h1 {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: red;
+}
+
+.det3 span {
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+.border3 h1 {
+    background: linear-gradient(45deg, red, silver, darkgreen, red);
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 50px;
+    height: 100px;
+}
+
+.lastOne {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
+    align-items: center;
+
+}
+
+.contact h4 {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact span {
+
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.img img {
+    height: 15vh;
+}
+
+.img h4 {
+
+    font-family: cursive;
+    font-size: 40px;
 
 }
