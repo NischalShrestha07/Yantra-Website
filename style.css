@@ -178,3 +178,9 @@ ul {
     font-family: cursive;
 
 }
+
+.man {
+    display: flex;
+}
+
+/* .man  */
