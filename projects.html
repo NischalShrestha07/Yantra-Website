@@ -87,7 +87,17 @@
             background-color: yellow;
         }
 
+        .skills {
+            padding: 150px;
+            border-radius: 50%;
+            margin-top: 150px;
+            border: 5px solid red;
+            background: skyblue;
+        }
+
         .skillContainer {
+
+            /*border: 5px solid red;*/
             padding: 12px;
             display: flex;
             justify-content: center;
@@ -95,6 +105,14 @@
             align-items: center;
             gap: 25px;
             font-size: 48px;
+        }
+
+        .myProjects {
+            border-radius: 50%;
+            margin-top: 150px;
+            border: 5px solid red;
+            padding: 50px;
+            background: rgb(233, 217, 217);
         }
 
         .myProjects h1 {
@@ -110,19 +128,31 @@
             color: chocolate;
         }
 
-        .myProjects nav ul li {
+        .skills h2 {
+            display: flex;
+            color: rgb(79, 13, 223);
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        .myProjects nav li {
 
             list-style: none;
-            margin-left: 51px;
-            padding: 5px;
             border: 1px solid black;
-            display: table;
-            margin: 15px;
-            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: cursive;
             border-radius: 10px;
+            font-size: 40px;
             background-color: greenyellow;
             color: black;
             font-weight: bold;
+            margin: 30px 40vw;
+            padding: 15px;
         }
     </style>
     </head>
@@ -130,13 +160,15 @@
     <body>
         <div class="main">
             <div class="intro">
-                <h2>About Me:</h2>
+                <h2>ABOUT ME:</h2>
                 <p>Hello there, I am Nischal Shrestha. <br>Frontend Developer,Enterpreneur,Fitness Influencer
 
                     <br>I am a newbie learning and trying to be a good/better Developer.I live in
                     Biratnagar,Nepal.And am intrested in doing these Developing Stuffs.
                 </p>
-                <h2>My Skills:</h2>
+            </div>
+            <div class="skills">
+                <h2>MY SKILLS:</h2>
                 <div class="skillContainer">
                     <div class="skillItem">
                         HTML:
@@ -155,22 +187,26 @@
                         <div class="skill sixtyFive"></div>
                     </div>
                 </div>
-                <div class="myProjects">
-                    <h1>My Projects</h1>
-                    <nav>
-                        <ul>
-                            <li><a href="">Tic Tac Toe</a></li>
-                            <li><a href="">Calculator</a></li>
-                            <li><a href="">Console Car Game</a></li>
-                            <li><a href="">Speech Convertor</a></li>
-                            <li><a href="">QR Code Generator</a></li>
-                            <li><a href="">Analog Clock</a></li>
-                            <li><a href="">Moving Car Animation</a></li>
-                            <a href="https://github.com/NischalShrestha07"><ion-icon name="logo-github"></ion-icon></a>
-                        </ul>
-                    </nav>
-                </div>
             </div>
+        </div>
+        <div class="myProjects">
+            <h1>MY PROJECTS</h1>
+            <nav>
+                <ul>
+                    <li>Figma Website Clone</li>
+                    <li>Tic Tac Toe</li>
+                    <li>ByteCare Website Clone</li>
+                    <li>Calculator</li>
+                    <li>Console Car Game</li>
+                    <li>Speech Convertor</li>
+                    <li>QR Code Generator</li>
+                    <li>Analog Clock</li>
+                    <li>Moving Car Animation</li>
+                    <li>Delta Website Clone</li>
+                    <li>Yantra Website</li>
+                    <li>Restaurent Website </li>
+                </ul>
+            </nav>
         </div>
     </body>
 
